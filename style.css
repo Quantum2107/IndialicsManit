@@ -1,0 +1,12 @@
+.mobile-register-btn{
+    position:fixed;
+    bottom:20px;
+    left:50%;
+    transform:translateX(-50%);
+    z-index:999;
+    padding:14px 28px;
+    border-radius:50px;
+    font-weight:600;
+    text-decoration:none;
+    display:none;
+}
