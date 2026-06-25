@@ -156,10 +156,8 @@ a{
 }
 
 .nav-left img{
-
-    height:42px;
+    height:65px;
     width:auto;
-
     object-fit:contain;
 }
 
