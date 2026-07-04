@@ -64,7 +64,7 @@ outline:none;
 
 cursor:pointer;
 
-font-family:inherit;
+font-family:'Poppins',sans-serif;
 
 background:none;
 
@@ -144,7 +144,7 @@ text-transform:uppercase;
 
 .section-title{
 
-font-family:'Playfair Display',serif;
+font-family:'Poppins',sans-serif;
 
 font-size:58px;
 
@@ -317,9 +317,9 @@ transition:.3s;
 }
 
 .logo-group img{
-    padding:4px 6px;
+    padding:4px 8px;
     border-radius:12px;
-    background:rgba(255,255,255,.03);
+    background:rgba(255,255,255,.025);
 
 }
 
@@ -486,11 +486,11 @@ linear-gradient(
 
 90deg,
 
-rgba(4,15,33,.96) 30%,
+rgba(4,15,33,.96) 25%,
 
-rgba(6,20,42,.82) 34%,
+rgba(6,20,42,.82) 50%,
 
-rgba(9,25,47,.45) 65%,
+rgba(9,25,47,.45) 85%,
 
 rgba(9,25,47,.25) 100%
 
@@ -535,6 +535,8 @@ z-index:5;
 display:flex;
 
 align-items:center;
+
+padding-left: 40px;
 
 }
 
@@ -1013,7 +1015,7 @@ FEATURE
 
     display:block;
 
-    width:42px;
+    width:140px;
 
     height:2px;
 
@@ -1505,7 +1507,7 @@ TEXT
 
     margin:0;
 
-    font-family:"Manrope",sans-serif;
+    font-family:'Poppins',sans-serif;
 
     font-size:16px;
 
@@ -2397,7 +2399,7 @@ RESPONSIVE
 
 .section-heading h2{
 
-    font-family:"Playfair Display",serif;
+    font-family:'Poppins',sans-serif;
 
     font-size:68px;
 
@@ -2515,7 +2517,7 @@ RESPONSIVE
 
     display:block;
 
-    width:54px;
+    width:280px;
 
     height:3px;
 
@@ -2776,7 +2778,7 @@ RESPONSIVE
 
 .footer-logos img{
 
-    height:54px;
+    height:80px;
 
     width:auto;
 
