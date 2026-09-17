@@ -100,3 +100,46 @@ transform:none;
 }
 
 }
+/* ==========================================
+   SECTION ANIMATIONS
+========================================== */
+
+.speaker-card,
+.committee-card,
+.partner-card{
+    opacity:0;
+    transform:translateY(40px);
+    animation:fadeUpCards .8s ease forwards;
+}
+
+.speaker-card:nth-child(2),
+.committee-card:nth-child(2),
+.partner-card:nth-child(2){
+    animation-delay:.15s;
+}
+
+.speaker-card:nth-child(3),
+.committee-card:nth-child(3),
+.partner-card:nth-child(3){
+    animation-delay:.3s;
+}
+
+.speaker-card:nth-child(4){
+    animation-delay:.45s;
+}
+
+@keyframes fadeUpCards{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+/* Mobile Tap Flip */
+
+.speaker-card.active .speaker-card-inner{
+    transform:rotateY(180deg);
+}
