@@ -814,3 +814,66 @@
     }
 
 }
+/* ==========================================
+   KEYNOTE SPEAKERS RESPONSIVE
+========================================== */
+
+/* Large Tablets */
+
+@media (max-width: 1200px){
+
+    .speakers-grid{
+        grid-template-columns:repeat(2, 1fr);
+        gap:24px;
+    }
+
+}
+
+/* Tablets */
+
+@media (max-width: 768px){
+
+    .speakers-grid{
+        grid-template-columns:1fr;
+        max-width:380px;
+        margin:40px auto 0;
+    }
+
+    .speaker-card{
+        height:340px;
+    }
+
+    .speaker-image{
+        width:120px;
+        height:120px;
+    }
+
+}
+
+/* Small Phones */
+
+@media (max-width: 480px){
+
+    .speaker-card{
+        height:320px;
+    }
+
+    .speaker-card-front,
+    .speaker-card-back{
+        padding:20px;
+    }
+
+    .speaker-image{
+        width:105px;
+        height:105px;
+    }
+
+    .speaker-card h3{
+        font-size:1rem;
+    }
+
+    .speaker-card p{
+        font-size:.9rem;
+    }
+
+}
